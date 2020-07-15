@@ -6777,7 +6777,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9cb6fa593e4c6cd4b9d485f7231b37d3, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.7
+  m_Volume: 0.593
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -10773,6 +10773,11 @@ PrefabInstance:
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4680249695697777048, guid: 8e4331171dd000147b442aabb022fda8,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4680249695698005432, guid: 8e4331171dd000147b442aabb022fda8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10847,11 +10852,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Volume
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4680249695697777048, guid: 8e4331171dd000147b442aabb022fda8,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -8908377067182644046, guid: 8e4331171dd000147b442aabb022fda8, type: 3}
