@@ -6,6 +6,7 @@ public class EnemyMove : MonoBehaviour
 {
     public int EnemySpeed;
     public int XMoveDirection;
+   
 
     private void Start()
     {
@@ -24,11 +25,6 @@ public class EnemyMove : MonoBehaviour
         if (hit.distance < 0.7f)
         {
             Flip();
-        }
-
-        if (transform.position.y < 5)
-        {
-            Destroy(this.gameObject);
         }
     }
 
